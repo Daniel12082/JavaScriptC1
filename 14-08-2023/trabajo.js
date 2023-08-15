@@ -1,6 +1,10 @@
-////////////////////////////////////////////
-/          TRABAJO DE JAVASCRIPT           /
-////////////////////////////////////////////
+/*
+#############################################
+#                Ejercicio 3                #
+#############################################
+*/
+
+//Realizado por: Daniel Felipe Diaz Sanchez
 
 function arreglo(numero,suma){
     let parejas=[]
@@ -16,4 +20,4 @@ function arreglo(numero,suma){
 }
 console.log(arreglo([2,4,3,6,9,8],10));
 
-//Realizado por: Daniel Felipe Diaz Sanchez
+
