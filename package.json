@@ -1,0 +1,19 @@
+{
+  "name": "clase2",
+  "version": "1.0.0",
+  "description": "Javascript de la clase 2",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Daniel12082/JavaScriptC2.git"
+  },
+  "author": "Daniel Felipe Diaz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Daniel12082/JavaScriptC2/issues"
+  },
+  "homepage": "https://github.com/Daniel12082/JavaScriptC2#readme"
+}
