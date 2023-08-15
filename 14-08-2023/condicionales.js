@@ -42,3 +42,33 @@ console.log(arreglo)
 arreglo.pop()
 console.log(arreglo)
 console.log(arreglo.indexOf("lands"))
+
+//funcion que no retorna ni recibe parametros
+//function mensaje(){
+//    console.log("Esto es un mensaje")
+//}
+//mensaje()
+//console.log(mensaje())
+
+//funcion que reorna pero no recibe parametros
+//function retorno(){
+//    return "Hola world"
+//}
+//retorno()
+//console.log(typeof retorno())
+
+//funcion que no retorna pero recibe parametros
+//function areaRectangulo (b,h)
+//{
+//    resultado=b*h
+//    console.log(resultado)
+//}
+//areaRectangulo(5,6)
+
+//funcion que retorna y recibe parametros
+//function concatenacion (a,b){
+//    return a+b
+//}
+//console.log(concatacion("campus", "lands"))
+
+//Calcular año en que nacio
