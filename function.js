@@ -26,13 +26,15 @@
 //}
 //console.log(concatacion("campus", "lands"))
 
+//Calcular año en que nacio
 function calcular(x){
     actual=2023
     nacimiento=actual-x
     console.log("El año en el que naciste fue:"+final)
 }
 calcular(10)
-//calcular(23)
+
+ //Calcular celsius
 function calcular(x){
     val=32+(9*x/5)
     console.log("La conversion de celcius a fahrenheit es:"+val )
