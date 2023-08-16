@@ -5,9 +5,12 @@ class Stack{
 toArray(){
     return[this.Stack]
 }
-Push(element) {
+push(element) {
+    const newNode = new Stack(element)
     this.Stack.push(element);
-    return this.Stack;
+    newNode.next = this.top
+    this.top=newNode;
+    this.size++;
 }
 pop(){
     return this.Stack.pop();
@@ -23,7 +26,6 @@ isEmpty(){
 }
 print() {
     console.log(this.Stack)
-    return this.Stack;
 }
 clear() {
     this.Stack = [];
@@ -32,3 +34,8 @@ indexOf(element) {
     return this.Stack.lastIndexOf(element);
 }
 }
+const stack = new Stack
+stack.push(1)
+stack.print()
+stack.push(2)
+stack.print()
