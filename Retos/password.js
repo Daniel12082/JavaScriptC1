@@ -23,7 +23,7 @@ const isLowerCaseWithoutNumbers = (str) => /^[a-z]+$/.test(str) && !/Number+$/.t
 // Función para cerrar la interfaz y mostrar la nueva contraseña
 const finalizar = () => {
     rl.close();
-    console.log(`Nueva contraseña generada: ${nuevaContraseña}`);
+    console.log(`${nuevaContraseña}`) ;
 };
 
 // Función para manejar las preguntas de las contraseñas
