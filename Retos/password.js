@@ -1,3 +1,11 @@
+/*
+########################################
+#           Reto password            #
+########################################
+*/
+
+//Realizado por: Daniel Felipe Diaz Sanchez
+
 const readline = require('readline');
 
 const rl = readline.createInterface({
@@ -23,9 +31,11 @@ const preguntarContraseñas = () => {
     rl.question("Ingrese la primera contraseña: ", (password1) => {
         rl.question("Ingrese la segunda contraseña: ", (password2) => {
             if ((password1.length < longitud_minima || password1.length > longitud_maxima) || (password2.length < longitud_minima || password2.length > longitud_maxima)) {
+                console.clear()
                 console.log("La contraseña debe tener una longitud mayor a 0 y menor a 25000");
                 preguntarContraseñas(); // Volver a preguntar
             } else if (!isLowerCaseWithoutNumbers(password1) || !isLowerCaseWithoutNumbers(password2)) {
+                console.clear()
                 console.log('Las contraseñas deben contener solo letras minúsculas y no deben contener números.');
                 preguntarContraseñas(); // Volver a preguntar
             } else {
