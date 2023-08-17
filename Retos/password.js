@@ -18,7 +18,7 @@ const longitud_maxima = 25000;
 let nuevaContraseña = '';
 
 // Función para verificar si una cadena es minúscula y no contiene números
-const isLowerCaseWithoutNumbers = (str) => /^[a-z]+$/.test(str) && !/\d/.test(str);
+const isLowerCaseWithoutNumbers = (str) => /^[a-z]+$/.test(str) && !/Number+$/.test(str);
 
 // Función para cerrar la interfaz y mostrar la nueva contraseña
 const finalizar = () => {
